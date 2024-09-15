@@ -1,0 +1,30 @@
+map from URL to page index
+{edu.miami.cs.www/home/vjm/csc220/google/fleece.html=20, edu.miami.cs.www/home/vjm/csc220/google/hill.html=11, edu.miami.cs.www/home/vjm/csc220/google/jack.html=19, edu.miami.cs.www/home/vjm/csc220/google/jill.html=7, edu.miami.cs.www/home/vjm/csc220/google/lamb.html=16, edu.miami.cs.www/home/vjm/csc220/google/little.html=23, edu.miami.cs.www/home/vjm/csc220/google/mary.html=0, edu.miami.cs.www/home/vjm/csc220/google/snow.html=3, edu.miami.cs.www/home/vjm/csc220/google/water.html=14, edu.miami.cs.www/home/vjm/csc220/google/white.html=8}
+map from page index to page disk
+{0=edu.miami.cs.www/home/vjm/csc220/google/mary.html[3, 7, 8, 11, 14, 16, 19]0.0, 3=edu.miami.cs.www/home/vjm/csc220/google/snow.html[8, 11, 20, 7, 23, 0]0.0, 7=edu.miami.cs.www/home/vjm/csc220/google/jill.html[11, 23, 20, 14, 16, 8, 7]0.0, 8=edu.miami.cs.www/home/vjm/csc220/google/white.html[11, 23, 3, 14, 7, 8, 20, 19]0.0, 11=edu.miami.cs.www/home/vjm/csc220/google/hill.html[14, 7, 20, 23, 11, 16, 19, 0, 3]0.0, 14=edu.miami.cs.www/home/vjm/csc220/google/water.html[0, 3, 11, 16, 23, 14]0.0, 16=edu.miami.cs.www/home/vjm/csc220/google/lamb.html[3, 7, 0, 16, 19, 11, 8]0.0, 19=edu.miami.cs.www/home/vjm/csc220/google/jack.html[11, 0, 19, 23, 8, 3]0.0, 20=edu.miami.cs.www/home/vjm/csc220/google/fleece.html[0, 19, 11, 3, 14, 16, 23]0.0, 23=edu.miami.cs.www/home/vjm/csc220/google/little.html[19, 0, 8, 11, 7, 3, 20, 14]0.0}
+map from word to word index
+{hill=0, white=7, snow=16, fleece=3, lamb=11, mary=20, water=14, jack=8, jill=19, little=23}
+map from word index to word file
+{0=hill[0, 7, 8, 11, 16, 20]0.0, 3=fleece[0, 3, 7, 14, 16, 19, 20, 23]0.0, 7=white[0, 3, 7, 16, 20, 23]0.0, 8=jack[0, 3, 8, 11, 14, 19, 20, 23]0.0, 11=lamb[0, 3, 7, 8, 14, 16, 23]0.0, 14=water[0, 3, 8, 11, 14, 16, 19, 23]0.0, 16=snow[3, 7, 8, 11, 14, 16, 19, 23]0.0, 19=jill[3, 7, 14, 16, 20]0.0, 20=mary[3, 7, 8, 11, 14, 16, 23]0.0, 23=little[8, 19, 20]0.0}
+page disk after slow rank
+edu.miami.cs.www/home/vjm/csc220/google/mary.html[3, 7, 8, 11, 14, 16, 19]1.0076844523972401
+edu.miami.cs.www/home/vjm/csc220/google/snow.html[8, 11, 20, 7, 23, 0]1.0937805924784265
+edu.miami.cs.www/home/vjm/csc220/google/jill.html[11, 23, 20, 14, 16, 8, 7]0.9975631010289547
+edu.miami.cs.www/home/vjm/csc220/google/white.html[11, 23, 3, 14, 7, 8, 20, 19]0.9955038697857829
+edu.miami.cs.www/home/vjm/csc220/google/hill.html[14, 7, 20, 23, 11, 16, 19, 0, 3]1.4185863723242054
+edu.miami.cs.www/home/vjm/csc220/google/water.html[0, 3, 11, 16, 23, 14]0.9624703903279224
+edu.miami.cs.www/home/vjm/csc220/google/lamb.html[3, 7, 0, 16, 19, 11, 8]0.8278041785325262
+edu.miami.cs.www/home/vjm/csc220/google/jack.html[11, 0, 19, 23, 8, 3]0.9333688607571062
+edu.miami.cs.www/home/vjm/csc220/google/fleece.html[0, 19, 11, 3, 14, 16, 23]0.7353504394675593
+edu.miami.cs.www/home/vjm/csc220/google/little.html[19, 0, 8, 11, 7, 3, 20, 14]1.027887742900276
+page disk after fast rank
+edu.miami.cs.www/home/vjm/csc220/google/mary.html[3, 7, 8, 11, 14, 16, 19]1.0
+edu.miami.cs.www/home/vjm/csc220/google/snow.html[8, 11, 20, 7, 23, 0]1.0
+edu.miami.cs.www/home/vjm/csc220/google/jill.html[11, 23, 20, 14, 16, 8, 7]1.0
+edu.miami.cs.www/home/vjm/csc220/google/white.html[11, 23, 3, 14, 7, 8, 20, 19]1.0
+edu.miami.cs.www/home/vjm/csc220/google/hill.html[14, 7, 20, 23, 11, 16, 19, 0, 3]1.0
+edu.miami.cs.www/home/vjm/csc220/google/water.html[0, 3, 11, 16, 23, 14]1.0
+edu.miami.cs.www/home/vjm/csc220/google/lamb.html[3, 7, 0, 16, 19, 11, 8]1.0
+edu.miami.cs.www/home/vjm/csc220/google/jack.html[11, 0, 19, 23, 8, 3]1.0
+edu.miami.cs.www/home/vjm/csc220/google/fleece.html[0, 19, 11, 3, 14, 16, 23]1.0
+edu.miami.cs.www/home/vjm/csc220/google/little.html[19, 0, 8, 11, 7, 3, 20, 14]1.0
