@@ -4,7 +4,8 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Map;
 
-/** This class represents the information stored in a file to record a
+/** Professor-provided:
+ * This class represents the information stored in a file to record a
  * word or web page. */
 public class InfoFile {
     public final String data; // URL or word
