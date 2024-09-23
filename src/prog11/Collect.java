@@ -5,6 +5,7 @@ import java.util.*;
 
 //import javax.xml.stream.events.StartDocument;
 
+// Professor-provided
 public class Collect {
   public static void main(String[] args) {
     Browser browser = new BetterBrowser();
