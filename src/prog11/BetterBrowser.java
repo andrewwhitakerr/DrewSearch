@@ -11,6 +11,11 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
+/**
+ * Professor-provided simulation of a web browser
+ * Loads a webpage and finds the words and URLs it contains
+ */
+
 public class BetterBrowser implements Browser {
 
 	private Document doc;

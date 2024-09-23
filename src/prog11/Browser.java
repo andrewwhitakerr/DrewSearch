@@ -2,6 +2,10 @@ package prog11;
 
 import java.util.List;
 
+/**
+ * Professor-provided Browser interface for its implementation in BetterBrowser.java
+ */
+
 public interface Browser {
 
   /** Load the page with this url.  Return false if it could not be
